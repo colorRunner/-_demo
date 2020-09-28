@@ -1,0 +1,36 @@
+.commonpage {
+	.section1 {
+		margin-top: 5rem;
+		padding-bottom: 2rem;
+		.green-box {
+			color: @white;
+			font-size: @title-font-sm;
+		}
+		p {
+			margin-bottom: 1rem;
+		}
+		ol.privacy, ol.legalpage {
+			a, a:hover {
+				color: @black;
+			}
+			font-weight: bold;
+			& > li {
+				&:not(:first-child) {
+					margin-top: 1rem;
+				}
+				div {
+					font-weight: normal;
+					& > ol > li {
+						list-style-type: decimal;
+						& > ol > li {
+							list-style-type: lower-latin;
+						}
+						ul {
+							margin-left: 1rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}

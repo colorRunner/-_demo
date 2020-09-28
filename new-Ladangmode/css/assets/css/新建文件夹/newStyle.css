@@ -1,0 +1,621 @@
+#mainnavbar .nav-link {
+  color: #FFFFFF !important;
+  opacity: 1.0;
+  font-size:16px;
+  font-weight: bold;
+}
+
+#mainnavbar .menuFocusClass {
+	color: #fff !important;
+	opacity: 1.0;
+	font-size:16px;
+	font-weight: bold;
+	
+}
+
+.head-container {
+    width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.container {
+    width: 100%;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.footer-container {
+    max-width: 970px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.footer {
+	min-height: 276px;
+    background-color:#F2F4F6;
+    padding-top: 58px;
+}
+.footer a {
+	color: #FFFFFF !important;
+	font-size:12px;
+}
+
+.footer-style-1 {
+	min-height: 761px;
+    background:linear-gradient(135deg,rgba(101,76,254,1) 0%,rgba(155,139,254,1) 100%);
+    padding-top: 53px;
+	color:#FFFFFF;
+	
+}
+
+.footer-style-1 a {
+	color: #FFFFFF !important;
+	font-size:14px;
+}
+
+.footer-border-line {
+	border-top: 2px solid #FFFFFF;
+	margin-top: 40px;
+}
+.footer-content {
+	display: flex;
+    
+	margin-left: -55px;
+}
+
+.footerIcon {
+	margin-top:18px;
+	margin-bottom: 20px;
+}
+.footerIcon img {
+	margin-right:16px;
+}
+
+.footer-world {
+	weight-bold:bolder;
+	margin-left:40px;
+}
+
+.bg-white {
+	background:linear-gradient(135deg,rgba(101,76,254,1) 0%,rgba(155,139,254,1) 100%);
+	
+}
+.img-row {
+	display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+.imgBg-row {
+	display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	width:100%;
+}
+.imgBg-row img {
+	width:100%;
+	height:100%;
+}
+
+.commonpage .section-img {
+    margin-top: 40px;
+    padding-bottom: 70px;
+}
+.description {
+	margin-top:50px;
+}
+.nav-link {
+	padding-right:0px !important;
+}
+
+.footerworld1 {
+	font-weight:600;
+	
+}
+.footerworld2 {
+	margin-top:15px;
+	font-weight:600;
+}
+.footerworld3 {
+	margin-top:10px;
+	font-weight:600;
+}
+.footerworld4 {
+	margin-top:10px;
+}
+.footerRightWorld {
+	margin-top:5px;
+	font-weight:600;
+}
+.copyright-panel {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+	padding-bottom:47px;
+	padding-top: 40px;
+}
+.section2Content {
+	background-color: rgba(158, 158, 158, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+	padding-bottom:30px;
+	padding-top: 30px;
+}
+.section2Content-title {
+	text-align:center;
+	padding-bottom:40px;
+}
+.section2PanelDesTitle {
+	margin-left: 10px;
+	color:#9187F6;
+	font-size:20px;
+	margin-bottom:14px;
+}
+.section2PanelDes {
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: 'Helvetica';
+}
+
+.section3Content-title {
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:40px;
+}
+.section3PanelDesTitle {
+	font-size:20px;
+	color:#FFFFFF;
+	padding-left: 10px;
+	padding-bottom:5px;
+}
+
+.chatTipMeg {
+	margin-top:-183px;
+	width:400px;
+	padding-left:40px;
+	font-size:16px;
+	font-family: Helvetica;
+}
+.slidePanel {
+	width:230px;
+	height:292px;
+	display: inline-block;
+}
+.slidePanelId ul li {
+	float;left;
+}
+.slidePanelTitle {
+	color:#595757;
+	font-size:18px;
+}
+.slideArrowOpacity {
+	opacity:0.3;
+}
+.focusClass {
+	
+}
+.navbar-nav li .dropdown-menu a:hover {
+	background:linear-gradient(135deg,rgba(144,136,246,1) 0%,rgba(41,181,254,1) 100%);
+}
+.silderImgClass1 {
+	width:100%;
+	height:100%;
+	background:linear-gradient(90deg,rgba(142,136,246,0.6) 0%,rgba(0,0,0,0.5) 100%);
+	box-shadow:0px 8px 10px 0px rgba(0,0,0,0.15);
+	border-radius:20px;
+	opacity:0.4;
+}
+.silderImgClass2 {
+	width:100%;
+	height:100%;
+	background:linear-gradient(270deg,rgba(50,178,254,0.6) 0%,rgba(0,0,0,0.5) 100%);
+	box-shadow:0px 8px 10px 0px rgba(0,0,0,0.15);
+	border-radius:20px;
+	opacity:0.4;
+}
+
+
+
+
+
+.footer-style-line {
+    border-top: 1px solid #ddd;
+    padding-top: 8px !important;
+    margin-bottom: -7px !important;
+}
+
+.footer-style-last-line {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px !important;
+	margin-left:0px !important;
+}
+
+.footer-container-mobile {
+    max-width: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-container-mobile .footer-content li {
+    max-width: 100%;
+}
+
+.footer-container-mobile .footer-content {
+	display: flex;
+	margin-left: -50px;
+}
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 980px) {
+	.footerIcon img {
+		margin-left:8px;
+		margin-right:8px;
+	}
+	.logo-img {
+		margin-left: -33%;
+	}
+	.show-hide-two {
+		display: block!important;
+	}
+	.show-hide-one {
+		display: none!important;
+	}
+	.contacts-content {
+		text-align: center;
+	}
+	
+	.contactus .container .address-content {
+		width: 100%;
+		margin-top: 10px;
+		font-size: 16px;
+		font-family:Helvetica;
+		font-weight:bold;
+	}
+	.contactus .container .phoneDetail {
+		font-size:14px;
+		font-family:Helvetica;
+		width:100%;
+		margin-top: 10px;
+		
+	}
+	.contactus .container .map-class {
+		width:100%;
+		height:280px;
+	}
+	
+	.row {
+	    display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    margin-right: 15px;
+	    margin-left: 15px;
+	}
+	
+	.img-row img {
+		width:100%;
+		max-height:200px;
+	}
+	.pinjampage .section1 .swiper-panel {
+		max-width:100%;
+	}
+	
+	.green-box {
+	    width:100%;
+	    min-height:438px;
+	    background-size: cover;
+	    background-image: url('../img/silder1.png');
+	    background-position: center;
+	    padding: 10px 20px;
+	    position: relative;
+	    box-shadow:0px 8px 40px 0px rgba(100,139,168,0.25);
+	}
+	
+	.pinjampage .section1 .container > .row {
+    	flex-direction: unset;
+	}
+	
+	.terms-gogle {
+		margin-top:30px;
+		text-align: center;
+	}
+	
+	.terms-second-title {
+		padding-top: 240px !important;
+	}
+	
+	.pinjampage .section3 .steps h3 {
+	    font-size: 24px !important;
+	    color: #FFFFFFFF !important;
+	    font-weight: 100 !important;
+	}
+	
+	.pinjampage .section3 .terms-slider-step {
+		padding-bottom:20px;
+	}
+	
+	.phoneImg-panel {
+		text-align: center;
+	}
+	
+	.select-panel {
+		margin-right: 0px !important;
+	    margin-left: 0px !important;
+	}
+	
+	.col-new-class {
+		padding-right: 0px !important;
+	}
+	
+	.scrollImgShower {
+		box-shadow: 0px 8px 40px 0px rgba(100,139,168,0.25);
+	}
+	
+	.logoImgPanel {
+		justify-content: center;
+		padding-top: 145px;
+	}
+	
+	.mobile-index-logo {
+		text-align: center;
+	}
+	
+	.mobile-index-logoImg {
+		width:270px;
+		height:49px;
+	}
+	
+	.mobile-index-logoIcon {
+		width:273px;
+		height:19px;
+	}
+	
+	.homepage .section2 .contentImg img {
+	    margin-top: -60%;
+	    background: #fff;
+	    border-radius: 12px;
+	    box-shadow: 0 0px 15px 2px rgba(0, 0, 0, 0.2);
+	}
+	
+	.homepage .section2 .contentImg {
+		text-align: center;
+	}
+	
+	.homepage .section2 .contentGoogle img {
+	    margin-top: -20%;
+	    margin-bottom: 10%;
+	    background: #fff;
+	    border-radius: 12px;
+	    box-shadow: 0 0px 15px 2px rgba(0, 0, 0, 0.2);
+	}
+	.homepage .section2 .contentGoogle {
+		text-align: center;
+	}
+	.index1-row {
+		display: flex;
+    	-ms-flex-wrap: wrap;
+    	flex-wrap: wrap;
+		
+	}
+	.index-mobile-icon {
+		width:100px;
+		height:100px;
+		
+	}
+	
+	.index-col {
+		padding-right: 0px !important; 
+        padding-left: 0px !important; 
+		
+	}
+	.index-section-title {
+		width:268px;
+		height:28px;
+	}
+	.section3-personPhoto {
+		width:40px;
+		height:40px;
+		margin-top: 35px;
+		
+	}
+	.index-col-4 {
+		-ms-flex: 0 0 0%;
+		flex: 0 0 0%;
+    	
+	}
+	.index-col-8 {
+    	max-width:85%;
+	}
+	.chatTipAlert {
+		min-width:273px;
+		height:205px;
+	
+	}
+	
+	.chatTipMeg {
+		margin-top:-195px;
+		min-width:270px;
+		padding-left:20px;
+		font-size:13px;
+		font-family: Helvetica;
+		text-align: left;
+	}
+	
+	.index-section3-center {
+		text-align: center;
+    	justify-content: center;
+	}
+	
+	.index-container {
+		max-width: 300px;
+    	
+	}
+	
+	.homepage .section4 .container-arrow-left {
+		width: 26px;
+    	height: 170px;
+    	position: relative;
+   		right: 140px;
+    	margin-top: -200px;
+	}
+	
+	.homepage .section4 .container-arrow-right {
+	    width: 26px;
+	    height: 170px;
+	    position: relative;
+	    margin-top: -200px;
+	    left: 130px;
+	}
+	
+	.index-section3-row {
+		display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    margin-right: 10px;
+	    margin-left: 10px;
+	}
+	
+	.navbar-mobile-logo {
+		width:50%;
+	}
+	
+	.footer-row {
+		display: -ms-flexbox;
+	    display: flex;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    margin-right: -15px;
+	    margin-left: -15px;
+	}
+	.footer-col {
+		padding-right: 5px !important; 
+    	padding-left: 5px !important;
+	}
+	
+	.footer-copy-panel {
+		padding-left: 10px;
+        padding-right: 10px;
+	}
+	   
+}
+
+@media screen and (min-width: 980px) {
+	.show-hide-two {
+		display: none!important;
+	}
+	.show-hide-one {
+		display: block!important;
+	}
+	.footer-content li {
+		min-width:455px;
+		text-align:justify;
+		margin-bottom: 10px;
+	}
+	
+	.contactus .container .address-content {
+		width: 354px;
+		margin-top: 10px;
+		font-size: 16px;
+		font-family:Helvetica;
+		font-weight:bold;
+	}
+	
+	.contactus .container .phoneDetail {
+		font-size:14px;
+		font-family:Helvetica;
+		margin-top: 20px;
+		
+		
+	}
+	
+	.contactus .container .map-class {
+		width:90%;
+		height:230px;
+	}
+	
+	.img-row img {
+		width:100%;
+		height:100%;
+	}
+	
+	.pinjampage .section1 .swiper-panel {
+		max-width:53.5%;
+	}
+	
+	.green-box {
+	  width:390px;
+	  height:438px;
+	  background-size: cover;
+	  background-image: url('../img/silder.png');
+	  background-position: center;
+	  padding: 10px 20px;
+	  position: relative;
+	  box-shadow:0px 8px 40px 0px rgba(100,139,168,0.25);
+	}
+	
+	.terms-gogle {
+		margin-top:17px;
+	}
+	
+	.logoImgPanel {
+		justify-content: center;
+		margin-top: 145px;
+	}
+	
+	.homepage .section2 .contentImg img {
+	  margin-top: -10%;
+	  background: #fff;
+	  border-radius: 12px;
+	  box-shadow: 0 0px 15px 2px rgba(0, 0, 0, 0.2);
+	}
+	
+	.homepage .section2 .contentGoogle img {
+	  margin-top: -10%;
+	  margin-bottom: 10%;
+	  margin-left: 560px;
+	  background: #fff;
+	  border-radius: 12px;
+	  box-shadow: 0 0px 15px 2px rgba(0, 0, 0, 0.2);
+	}
+	
+	.section3-personPhoto {
+		width:249px;
+		height:249px;
+		
+	}
+	
+	.homepage .section4 .container-arrow-left {
+	    width: 26px;
+	    height: 170px;
+	    position: relative;
+	    margin-right: 780px;
+	    margin-top: -200px;
+	}
+	
+	.homepage .section4 .container-arrow-right {
+	    width: 26px;
+	    height: 170px;
+	    position: relative;
+	    margin-top: -200px;
+		margin-left:20px;
+	}
+	
+}
+
+
+
+
+
+

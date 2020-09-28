@@ -1,0 +1,672 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Privasi Data - Ladangmodal</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="css/assets/plugins/bootstrap-4.1.1/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/assets/plugins/fontawesome-5.1.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/assets/css/newStyle.css" />
+	<link rel="stylesheet" type="text/css" href="css/assets/plugins/slide/css/jquery.bxslider.css" />
+	<link rel="stylesheet" type="text/css" href="css/assets/plugins/swiper/swiper.css" />
+	<script src="css/assets/plugins/jquery-3.3.1.min.js"></script>
+	<script src="css/assets/plugins/slide/js/jquery.bxslider.js"></script>
+	<script src="css/assets/plugins/swiper/swiper.js"></script>
+	
+	
+    <style>
+	#ol_priv .help-para { margin: 0; }
+	#ol_priv ol.start { 
+		counter-reset: mycounter; 
+	}
+	#ol_priv ol.start li, #ol_priv ol.continue li {
+		list-style: none;
+	}
+	#ol_priv ol.start li:before, #ol_priv ol.continue li:before { 
+		content: counter(mycounter, lower-latin) ". "; 
+		counter-increment: mycounter;
+	}
+	#ol_priv ol.start1 { 
+		counter-reset: mycounter1; 
+		list-style-type: lower-latin;
+	}
+	#ol_priv ol.start1 li, #ol_priv ol.continue1 li {
+		list-style: none;
+	}
+	#ol_priv ol.start1 li:before, #ol_priv ol.continue1 li:before { 
+		content: "(" counter(mycounter1, lower-latin) ") "; 
+		counter-increment: mycounter1;
+	}
+	#ol_priv ul > li { list-style-type: disc; }
+	#ol_priv > ol > li { list-style-type: decimal; margin-bottom: 10px; }
+	#ol_priv > ol > li > ol > li { list-style-type: lower-latin; }
+	#ol_priv > ol > li > ol > li > ol > li { list-style-type: lower-roman; }
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white mainnavbar" id="mainnavbar">
+	
+	<div class="container head-container">
+	  <a class="navbar-brand show-hide-one" href="/"><img class="logo-img" src="css/assets/img/logo.png" title="Perdana"/></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  
+	  <a class="navbar-brand show-hide-two navbar-mobile-logo" href="/"><img class="logo-img" src="css/assets/img/logo.png" title="Perdana"/></a>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  	<ul class="navbar-nav ml-auto">
+		  <li class="nav-item">
+		    <a class="nav-link menuFirst" href="/">Beranda</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link menuSecond" href="/terms">Pinjaman</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link menuSecond" href="/terms">Pinjaman Produktif</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link menuSecond" href="/terms">Pendanaan</a>
+		  </li>
+		  <li class="nav-item dropdown">
+		    <a class="nav-link menuThree dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		      Pusat Bantuan
+		    </a>
+		    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		      <a class="dropdown-item" href="/helpcenter">FAQ</a>
+		      <a class="dropdown-item" href="/aboutus">Tentang Kami</a>
+		      <a class="dropdown-item" href="/contactus">Hubungi Kami</a>
+		    </div>
+		  </li>
+		</ul>
+	   
+	  </div>
+	
+	</div>
+</nav>
+
+
+	<div class="content commonpage">
+        <div class="section1" id="section1">
+            <div class="container">
+                <div class="row mt-5 mb-4 font-weight-bold container-title">
+                    <div class="col-auto">
+                        <div class="green-box-type" style="margin-top:40px;"><i class="fas fa-user-lock mr-2"></i> Kebijakan Privasi</div>
+                    </div>
+                </div>
+                <div class="row" style="color:#9187F6;">
+					<div class="col">
+						<div id="ol_priv">
+								<p><b>KEBIJAKAN PRIVASI</b></p>
+								<p class="help-para">
+									Kebijakan Privasi ini telah dibuat untuk menjaga, melindungi dan menjaga privasi dan kerahasiaan dari Pengguna Platform milik kami. Pengguna diharapkan membaca Kebijakan Privasi ini dengan saksama sebelum menggunakan Layanan yang diberikan melalui Platform. Dengan mengakses dan menggunakan Layanan di Platform, Pengguna mengakui telah membaca, memahami dan menyetujui isi yang tertulis dalam Kebijakan Privasi ini.
+								</p>
+								<ol>
+									<li>
+						            <p style="font-weight: bold;">
+						            DEFINISI 
+						            </p>
+						            <p class="help-para">
+						            "<b>Anda</b>" dengan variasi tata bahasa dan ungkapan yang serumpun, merujuk pada Peminjam, Pemberi Pinjaman atau orang lain yang menggunakan Platform dan/atau Layanan baik terdaftar pada Platform maupun tidak.<br/>
+									"<b>Data Pribadi</b>" adalah meliputi segala data, keterangan, informasi dan dokumen, baik elektronik maupun non-elektronik namun selain Nomor Darurat, dari atau mengenai Pengguna (baik Peminjam maupun Pemberi Pinjaman, sesuai konteksnya) dan/atau pihak terkait Pengguna (termasuk namun tidak terbatas pada keluarga, rekan, karyawan, perusahaan atau penyedia jasa Pengguna, apabila dipersyaratkan) yang diterima atau diakses LadangModal dari Pengguna, diajukan, diberikan atau disingkapkan Pengguna bagi LadangModal, menurut persetujuan Pengguna yang bersangkutan serta disimpan dan dikelola sehubungan dengan penyediaan Layanan pada Platform dan dalam rangka pemanfaatan Layanan pada Platform oleh Pengguna.<br/>
+									"<b>Gagal Bayar</b>" adalah peristiwa dimana Peminjam telah melanggar ketentuan pembayaran Pinjaman, berikut bunga, denda, dan kewajiban finansial lainnya berdasarkan Perjanjian Pinjaman, oleh karena alasan apapun, baik karena kesengajaan atau kelalaian, meliputi antara lain melanggar jadwal dan/atau jumlah pembayaran Pinjaman yang diatur dalam Perjanjian Pinjaman maupun perubahannya dari waktu ke waktu (apabila ada). <br/>
+									"<b>Kami</b>" atau "<b>LadangModal</b>", digunakan sesuai konteksnya, adalah PT Digital Synergy Technology yang dikenal dengan merek dagang "LadangModal", yaitu perusahaan teknologi finansial yang melaksanakan kegiatan usaha LPMUBTI melalui Platform berdasarkan POJK No. 77/2016 untuk menyediakan Pinjaman bagi Peminjam. Kami atau LadangModal termasuk pegawai dan kuasa yang sah dari LadangModal. <br/>
+									
+									"<b>Kuasa</b>" adalah pemberian kuasa sebagaimana dimaksud dalam Pasal 1792 Kitab Undang-Undang Hukum Perdata dari Pemberi Pinjaman kepada LadangModal untuk mewakili dan bertindak untuk dan atas nama serta demi kepentingan Pemberi Pinjaman melakukan:<br/>
+										<ol class="help-para">
+											<li>pernyataan kesepakatan, perancangan, negosiasi, penandatanganan, implementasi maupun restrukturisasi Perjanjian Pinjaman;</li>
+											<li>penagihan Pinjaman dari Peminjam berdasarkan Perjanjian Pinjaman, menerima dan mengembalikan dana hasil pembayaran kembali Pinjaman dari Peminjam kepada Pemberi Pinjaman; dan</li>
+											<li>tindakan-tindakan lain terkait yang sewajarnya diperlukan untuk pelaksanaan Perjanjian Pinjaman, kepatuhan terhadap POJK No. 77/2016, surat edaran OJK terkait dan peraturan perundang-undangan yang mempengaruhi atau perlu diperhatikan terkait LPMUBTI, Perjanjian Penyaluran Dana dan Perjanjian Pinjaman serta pemenuhan hak dan kewajiban Pemberi Pinjaman berdasarkan Perjanjian Pinjaman.</li>
+										</ol>
+									</p>
+									<p class="help-para">
+									"<b>Layanan</b>" adalah layanan jasa keuangan berupa penyediaan Platform oleh LadangModal untuk mempertemukan Pemberi Pinjaman dengan Peminjam dalam rangka melaksanakan kegiatan LPMUBTI terkait penyaluran Pinjaman kepada Peminjam.<br/>
+									"<b>LPMUBTI</b>" adalah Layanan Pinjam Meminjam Uang Berbasis Teknologi, atau dikenal dengan peer-to-peer lending, untuk menyalurkan Pinjaman dari Pemberi Pinjaman kepada Penerima Pinjaman sebagaimana syarat, ketentuan dan pelaksanaannya diatur dalam POJK No. 77/2016.<br/>
+									"<b>Nomor Darurat</b>" adalah nomor kontak individu yang dicantumkan Peminjam pada saat mengajukan aplikasi permohonan perolehan pinjaman pada Perusahaan melalui Platform sebagai nomor yang dapat, berhak dan akan dihubungi Perusahaan ketika Peminjam telah dikategorikan Gagal Bayar.<br/>
+									"<b>Nomor Darurat Pengganti</b>" adalah nomor kontak individu yang diberikan Peminjam sebagai pengganti atas Nomor Darurat Non-Aktif atas permintaan LadangModal untuk dapat dihubungi LadangModal terkait tujuan sebagaimana dimaksud dalam Pasal 3 huruf (a) dan (b) Kebijakan Privasi ini.<br/>
+									"<b>Nomor Darurat Non-Aktif</b>" adalah sebagaimana dimaksud dalam Pasal 3.4 Kebijakan Privasi ini.<br/>
+									"<b>Platform</b>" adalah situs dan/atau versi mobile dari situs yang dibuat, dimiliki dan dioperasikan oleh LadangModal yang saat ini terletak di dan dapat diakses pada URL www.LadangModal.id berikut perubahan URL tersebut dari waktu ke waktu.<br/>
+									"<b>Pemberi Pinjaman</b>" adalah pihak yang terdaftar dalam Platform untuk melakukan pendanaan berupa pemberian dan penyaluran Pinjaman kepada Peminjam melalui Platform.<br/>
+									"<b>Peminjam</b>" adalah pihak yang terdaftar dalam Platform untuk menerima pendanaan berupa pinjaman dari Pemberi Pinjaman melalui Platform.<br/>
+									"<b>Pengguna</b>" adalah Pemberi Pinjaman selaku pihak dalam Perjanjian Penyaluran Pinjaman dan Peminjam selaku pihak dalam Perjanjian Pinjaman yang terdaftar dalam Platform.<br/>
+									"<b>Perjanjian Penyaluran Pinjaman</b>" adalah perjanjian antara LadangModal dan Pemberi Pinjaman untuk penyaluran dana Pinjaman dari Pemberi Pinjaman kepada Peminjam melalui Platform.<br/>
+									"<b>Perjanjian Pinjaman</b>" adalah kesepakatan tertulis yang disepakati antara Pemberi Pinjaman, LadangModal dan Peminjam yang mengatur antara lain hak dan kewajiban Pemberi Pinjaman dan Peminjam, syarat dan ketentuan penyaluran Pinjaman dari Pemberi Pinjaman melalui LadangModal kepada Peminjam, dan mekanisme serta Kuasa, prosedur pengembalian atau pembayaran Pinjaman beserta perubahan, perpanjangan dan lampiran-lampirannya.<br/>
+									"<b>Perkominfo No. 20/2016</b>" adalah Peraturan Menteri Komunikasi dan Informatika Nomor 20 Tahun 2016 tentang Perlindungan Data Pribadi dalam Sistem Elektronik.<br/>
+									"<b>Pinjaman</b>" adalah fasilitas pinjaman (berikut bunga, denda dan kewajiban finansial lainnya) dari Pemberi Pinjaman yang disalurkan Pemberi Pinjaman kepada Peminjam melalui Platform Modalku berdasarkan Perjanjian Pinjaman.<br/>
+									"<b>POJK No. 77/2016</b>" adalah Peraturan Otoritas Jasa Keuangan Nomor 77/POJK.01/2016 tentang LPMUBTI.<br/>
+									"<b>UU ITE</b>" adalah Undang-Undang No. 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik sebagaimana telah diubah terakhir berdasarkan Undang-Undang No. 19 Tahun 2016.
+						            </p>
+						        </li>
+						        <li>
+						            <p style="font-weight: bold;">
+						            PENDAHULUAN
+						            </p>
+						            <ol class="help-para">
+										<li>Dengan memperoleh Pinjaman dari Pemberi Pinjaman melalui LadangModal berdasarkan Perjanjian Pinjaman serta selama Peminjam masih merupakan pihak dalam setiap Perjanjian Pinjaman dan memiliki kewajiban finansial menurut ketentuan Perjanjian Pinjaman, maka Peminjam dianggap demi hukum telah menyetujui seluruh ketentuan Kebijakan Privasi ini khususnya ketentuan mengenai Penggunaan Nomor Darurat sebagaimana diatur dalam Pasal 3 berikut seluruh akibat hukumnya dengan sukarela, tanpa paksaan maupun penipuan dan tanpa diperlukan suatu formalitas atau pemenuhan prosedur apapun untuk memberlakukan ketentuan ini secara hukum.</li>
+										<li>Persetujuan Peminjam sebagaimana dimaksud dalam Pasal 2.1 di atas, tetap berlaku tanpa syarat dan tanpa dapat ditarik kembali hingga berakhirnya perikatan hukum berikut seluruh kewajiban finansial Peminjam berdasarkan Perjanjian Pinjaman. </li>
+										<li>
+											Persetujuan Peminjam secara elektronik sebagaimana dimaksud dalam Pasal 2.2 di atas adalah:
+											<ol class="help-para">
+												<li>dipersamakan dengan persetujuan sebagaimana dimaksud dalam Pasal 1320 Kitab Undang-Undang Hukum Perdata sebagai syarat sahnya suatu perjanjian;</li>
+												<li>dikualifisir sebagai alat bukti hukum yang sah berdasarkan Pasal 5 ayat 1 UU ITE; dan</li>
+												<li>merupakan instrumen pembuktian yang diterima sebagai bagian dari konsep pembuktian secara perdata dalam pengadilan menurut Pasal 1865 Kitab Undang-Undang Hukum Perdata.</li>
+											</ol>
+										</li>
+										<li>LadangModal telah mengedepankan transparansi dan pemaparan secara intensif mengenai isi Kebijakan Privasi ini termasuk Penggunaan Nomor Darurat dalam proses pengajuan Aplikasi Permohonan sebagaimana diatur dalam Pasal 3 Kebijakan Privasi ini, sehingga Peminjam dianggap telah cermat memahami isi Kebijakan Privasi, sebagaimana dibuktikan secara mutlak dari diterimanya Pinjaman oleh Peminjam melalui Platform.</li>
+										<li>
+										Dengan diberlakukannya ketentuan perihal Penggunaan Nomor Darurat sebagaimana diatur dalam Pasal 3 Kebijakan Privasi ini, LadangModal mengharapkan:
+											<ol class="help-para">
+												<li>Peminjam menjadi konsumen yang baik dengan memenuhi janji dan komitmennya melunasi Pinjaman berdasarkan Perjanjian Pinjaman, sebagaimana LadangModal telah melaksanakan tanggung jawabnya untuk mencairkan Pinjaman dengan efisien, aman dan efektif pada Peminjam dengan seluruh rekam jejak transaksi dan alur proses pengajuan Aplikasi Permohonan yang terekam pada sistem informasi dan teknologi Rupiah Plus; dan</li>
+												<li>Peminjam menjadi konsumen yang beriktikad baik dalam melaksanakan tanggung jawabnya untuk melunasi Pinjaman dengan tepat waktu dan tuntas tanpa terlibat dalam sengketa apapun terkait Gagal Bayar dengan LadangModal, melainkan seluruh kewajiban finansial Peminjam terkait Pinjaman dapat dipenuhi dan dituntaskan sehingga Peminjam dapat dikategorikan sebagai Peminjam yang bertanggung jawab (responsible borrower) dalam kegiatan pinjam meminjam yang juga bertanggung jawab (responsible lending) yang mematuhi ketentuan hukum dan peraturan perundang-undangan</li>
+											</ol>
+										</li>
+									</ol>
+								</li>
+								<li>
+						            <p style="font-weight: bold;">
+						            DATA PRIBADI
+						            </p>
+						            <p class="help-para">
+										<u><b>Penggunaan Data Pribadi</b></u>
+										<ol class="help-para start">
+											<li>Selama menggunakan Layanan, kami berhak untuk meminta, memperoleh, mengumpulkan, menyimpan, mengelola dan menggunakan Data Pribadi Anda yang diperoleh melalui proses mencakup namun tidak terbatas pada pengisian formulir atau data isian online yang terdapat pada Platform, informasi mengenai perangkat, kunjungan serta penggunaan Platform pada saat Pengguna mengakses Platform, dan informasi lain yang didapat melalui Platform, <i>email</i>, telepon maupun media lain (apabila diperlukan).</li>
+											<li>
+												Anda dengan ini memberikan persetujuan bahwa kami berhak meminta, memperoleh, mengumpulkan, mengolah, menyimpan, dan menggunakan Data Pribadi yang Anda berikan melalui Platform yang akan digunakan untuk, namun tidak terbatas pada, tujuan berikut
+												<ol class="help-para start1">
+													<li>penilaian, analisis, verifikasi, validasi atau pemeriksaan terhadap (i) permohonan atau aplikasi perolehan pinjaman; (ii) proses atau permohonan pendaftaran sebagai Pemberi Pinjaman atau Peminjam; dan/atau (iii) profil Anda;</li>
+													<li>melakukan penilaian risiko, analisis dan perencanaan statistik dan tren, termasuk melaksanakan pengolahan data, analisis statistik, kredit, risiko dan anti pencucian uang, membuat dan mengelola model penilaian kredit, melakukan pemeriksaan dan peninjauan kredit dan latar belakang lain, dan menyimpan sejarah kredit Anda dan kuasa Anda yang sah untuk referensi saat ini dan di masa mendatang;</li>
+													<li>mengelola hubungan LadangModal dengan Anda yang dapat termasuk menyediakan informasi kepada Anda tentang Platform dan memungkinkan Anda untuk menggunakan Layanan yang disediakan oleh Platform; </li>
+													<li>mengirim notifikasi melalui <i>email</i> kepada Anda;</li>
+													<li>menghubungi Anda terkait dengan permintaan Anda;</li>
+													<li>mencegah dan mendeteksi penipuan, termasuk namun tidak terbatas pada penggunaan teknologi deteksi suara untuk menganalisa rekaman percakapan telepon Anda dengan kami;</li>
+													<li>untuk keperluan bisnis kami secara umum misalkan untuk verifikasi identitas Anda dan reputasi kredit Anda;</li>
+													<li>mengidentifikasi Anda ketika Anda menghubungi kami atau mengunjungi Platform.</li>
+													<li>mengirim komunikasi komersial pemasaran dan non-pemasaran kepada Anda; </li>
+													<li>mengirim notifikasi atau buletin <i>email</i> jika sebelumnya diminta oleh Anda; </li>
+													<li>memberikan informasi yang memadai di Platform untuk mengidentifikasi Anda kepada Pemberi Pinjaman dan/atau Peminjam; </li>
+													<li>mengizinkan Anda berpartisipasi dalam layanan fitur interaktif kami;</li>
+													<li>mengizinkan bank, badan keuangan atau pihak ketiga yang berwenang guna mengadakan pengecekan terbatas pada status Anda dalam database kami atau Layanan;</li>
+													<li>menangani pertanyaan atau keluhan yang dibuat oleh atau tentang Anda sehubungan dengan Platform dan disimpan untuk mencegah kecurangan;</li>
+													<li>memverifikasi kepatuhan Anda terhadap persyaratan dan ketentuan yang mengatur penggunaan Platform;</li>
+													<li>survey, riset, evaluasi dan/atau pengembangan produk atau Layanan oleh LadangModal atau pihak terkait yang berkepentingan; </li>
+													<li>pengurusan rekening escrow Pengguna kepada pihak penyedia penyedia rekening escrow;</li>
+													<li>melakukan pemeriksaan anti pencucian uang dan pencegahan dana terorisme di sektor jasa keuangan; </li>
+													<li>memenuhi persyaratan hukum, regulasi dan kepatuhan yang berlaku terhadap LadangModal beserta Platform dan Layanannya berdasarkan undang-undang yang berlaku dan mematuhi setiap perjanjian yang berlaku sehubungan dengan pelaksanaan Layanan;</li>
+													<li>melaksanakan perintah atau kebijakan pemerintah, badan pengaturan atau instansi yang berwenang;</li>
+													<li>memberitahu Anda tentang perubahan-perubahan terhadap Platform dan Layanan.</li>
+												</ol>
+											</li>
+											<li>Data Pribadi yang disampaikan oleh Anda kepada kami untuk tujuan publikasi di Platform akan digunakan untuk tujuan tersebut sesuai dengan persetujuan yang telah Anda berikan kepada kami.</li>
+											<li>
+												Kami dapat mengungkapkan Data Pribadi Anda apabila:
+												<ol class="help-para start1">
+													<li>dipersyaratkan oleh peraturan perundang-undangan; </li>
+													<li>terdapat proses hukum yang sedang atau akan berlangsung; </li>
+													<li>terdapat dugaan adanya tindak pidana termasuk namun tidak terbatas pada tindak pidana penipuan atau pencucian uang;</li>
+													<li>dipersyaratkan oleh instansi atau pihak yang berwenang; dan</li>
+													<li>telah mendapatkan persetujuan tertulis oleh Anda.</li>
+												</ol>
+											</li>
+											<li>Jika Anda memberikan kami informasi yang salah dan tidak akurat, atau kami menduga adanya penipuan, kami bisa mencatat hal tersebut dalam sejarah kredit Anda dan membagikan informasi tersebut ke badan hukum yang tepat atau pihak yang berwenang dan/atau agensi pencegah penipuan.</li>
+										</ol>
+										<p class="help-para">
+											<b><u>Penyimpanan Data Pribadi</u></b>
+											<ol class="help-para continue">
+												<li>Semua Data Pribadi yang Anda berikan dan/atau kami terima sesuai dengan Kebijakan Privasi disimpan dengan aman di wilayah Republik Indonesia.</li>
+												<li>Penyimpanan Data Pribadi Pengguna oleh LadangModal paling singkat adalah selama 5 (lima) tahun atau selama diperlukan untuk melindungi kepentingan LadangModal yang dianggap perlu atau apabila diminta oleh undang-undang.</li>
+											</ol>
+										</p>
+										<p class="help-para">
+											<b><u>Keamanan Data Pribadi</u></b>
+											<ol class="help-para continue">
+												<li>Kami akan mengambil semua langkah dan tindakan yang wajar untuk mencegah kehilangan, penyalahgunaaan atau perubahan Data Pribadi Anda oleh pihak-pihak yang tidak berwenang.</li>
+												<li>Kami selanjutnya menjamin bahwa semua informasi Data Pribadi Anda yang disampaikan kepada kami akan disimpan dalam server kami yang aman. Sistem keamanan kami telah memenuhi standar industri dan kami senantiasa mengamati perkembangan internet guna memastikan sistem kami berkembang seperti yang disyaratkan. Kami juga melakukan pengujian terhadap sistem kami secara berkala untuk memastikan mekanisme keamanan kami selalu mutakhir dan kami sepenuhnya mematuhi peraturan perundang-undangan yang berlaku tentang perlindungan data di Indonesia.</li>
+												<li>Terlepas dari langkah dan tindakan pencegahan yang kami lakukan, kami tidak dapat memberikan jaminan penuh atas keamanan segala bentuk data yang dikirimkan kepada kami melalui internet dimana terdapat pihak-pihak lain yang mengambil atau mempergunakan kami dengan melawan hukum serta tanpa izin kami. Kami akan berupaya sebaik mungkin untuk membatasi akses ke dalam Data Pribadi oleh pihak yang tidak berwenang.</li>
+												<li>Saat mendaftarkan diri di Platform, Anda diminta untuk membuat kata sandi pribadi Anda sendiri. Anda bertanggung jawab untuk menjaga kerahasiaan kata sandi tersebut. Kami mengimbau agar Anda tidak membagikan atau memberitahukan kata sandi tersebut kepada pihak yang tidak berkepentingan. Kecuali jika Anda ingin masuk ke Platform, kami tidak akan pernah meminta kata sandi Anda.</li>
+											
+											</ol>
+										</p>
+										<p class="help-para">
+											<b><u>Pengembalian dan Pemusnahan Data Pribadi</u></b>
+											<ol class="help-para continue">
+												<li>
+													Pemusnahan Data Pribadi Anda hanya dapat dilakukan jika:
+													<ol class="help-para start1">
+														<li>telah melewati ketentuan jangka waktu penyimpanan Data Pribadi yaitu 5 (lima) tahun atau sesuai dengan ketentuan peraturan perundang-undangan;</li>
+														<li>atas permintaan Anda, kecuali ditentukan lain oleh ketentuan peraturan perundang-undangan.</li>
+													
+													</ol>
+												</li>
+												<li>Pemusnahan sebagaimana pada Pasal 2.11 termasuk menghilangkan sebagian atau keseluruhan dokumen terkait Data Pribadi Anda yang kami kelola sehingga Data Pribadi tersebut tidak dapat ditampilkan kembali dalam sistem elektronik kecuali Anda memberikan Data Pribadi yang baru.</li>
+											
+											</ol>
+										</p>
+										<p class="help-para">
+											<b><u>Perubahan Data Pribadi</u></b>
+											<ol class="help-para continue">
+												<li>
+													Kami memahami bahwa Anda perlu memperbarui atau memperbaiki informasi Anda dari waktu ke waktu. Saat diperlukan pembaruan informasi, maka Pengguna dapat mengajukan permohonan secara tertulis via <i>email</i> kepada Kami dan berikan Kami rincian yang relevan. Kami akan membantu memperbarui dan/atau memperbaiki informasi Anda untuk Anda jika dianggap perubahan tersebut diperlukan.
+												</li>
+											</ol>
+										</p>
+										<p class="help-para">
+											<b><u>Pengembalian Data Pribadi</u></b>
+											<ol class="help-para continue">
+												<li>
+													Pengguna berhak atas pengembalian Data Pribadi yang telah diberikan kepada kami dengan persyaratan sebagai berikut:
+													<ol class="help-para start1">
+														<li>tidak sedang terikat perjanjian sehubungan dengan penyediaan Layanan pada Platform, baik Perjanjian Penyaluran Pinjaman maupun Perjanjian Pinjaman;</li>
+														<li>tidak memiliki hak sehubungan dengan penyediaan Layanan pada Platform, termasuk namun tidak terbatas pada hak tagih atas pengembalian, pembayaran kembali dan pelunasan piutang;</li>
+														<li>tidak memiliki kewajiban, tanggung jawab finansial, utang atau hal sejenisnya sehubungan penyediaan Layanan pada Platform;</li>
+														<li>tidak dalam proses pengajuan permohonan perolehan pinjaman berikut proses verifiaksi dan penilaian terhadap permohonan tersebut oleh LadangModal; dan</li>
+														<li>tidak terdaftar sebagai Pengguna aktif Platform (sudah menonaktifkan akun).</li>
+													</ol>
+												</li>
+												<li>
+													Permohonan pengembalian Data Pribadi tersebut disampaikan kepada kami melalui <i>email</i> cs@LadangModal.com dengan menyertakan bukti diri yang sah (salinan kartu tanda penduduk atau paspor) beserta alasan pengembalian Data Pribadi.
+												</li>
+											</ol>
+										</p>
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									PENGGUNAAN NOMOR DARURAT
+									</p>
+									<p class="help-para">
+										<b><u>Tujuan Penggunaan Nomor Darurat</u></b>
+										<ol class="help-para start">
+											<li>
+												Nomor Darurat yang dicantumkan oleh Penerima Pinjaman saat proses pengajuan permohonan perolehan Pinjaman ("Aplikasi Permohonan") akan digunakan LadangModal khusus untuk menghubungi pemilik Nomor Darurat yang bersangkutan ketika Peminjam berada dalam keadaan Gagal Bayar.
+											</li>
+										</ol>
+									</p>
+									<p class="help-para">
+										<b><u>Hak LadangModal Menghubungi Nomor Darurat</u></b>
+										<ol class="help-para continue">
+											<li>
+												Sebagai syarat mutlak pemanfaatan Pinjaman melalui Platform, Peminjam dengan ini mengizinkan LadangModal tanpa memerlukan persetujuan dari pihak manapun, untuk menghubungi pihak selaku pemilik Nomor Darurat ("<b>Pemilik Nomor Darurat</b>") dalam hal Peminjam berada dalam keadaan Gagal Bayar, sebagaimana dapat diberitahukan oleh LadangModal, untuk tujuan:
+												<ol class="help-para start1">
+													<li>mencari atau menelusuri keberadaaan Peminjam dalam hal Peminjam yang belum melunasi Pinjaman dan Peminjam tidak bisa atau sulit dihubungi melalui nomor telepon selular Peminjam yang terdaftar dan tercatat pada Platform pada saat proses pengajuan Aplikasi Permohonan;</li>
+													<li>meminta bantuan Pemilik Nomor Darurat untuk mengingatkan Peminjam untuk membayar dan melunasi Pinjaman; dan/atau</li>
+													<li>meminta Pemilik Nomor Darurat menyampaikan pesan dari LadangModal sehubungan dengan pemenuhan kewajiban pelunasan Pinjaman dan keadaan Gagal Bayar.</li>
+												</ol>
+											</li>
+											<li>
+												LadangModal akan menghubungi Pemilik Nomor Darurat untuk tujuan di atas baik melalui, antara lain, telepon langsung, SMS (Short Message Service), BlackBerry messenger, WeChat, maupun Whatsapp dan cara lain sebagaimana ditentukkan oleh LadangModal dari waktu ke waktu. Dalam berkorespondensi dengan Pemilik Nomor Darurat, LadangModal akan menghindari segala wujud intimidasi, ancaman maupun pelanggaran hukum lainnya, termasuk dalam hal ini tidak akan mengirim foto Peminjam kepada Pemilik Nomor Darurat.
+											</li>
+										</ol>
+									</p>
+									<p class="help-para">
+										<b><u>Langkah Antisipasi Terhadap "Nomor Darurat Non-Aktif"</u></b>
+										<ol class="help-para continue">
+											<li>
+												Nomor Darurat yang dicantumkan Peminjam dalam proses pengajuan Aplikasi Permohonan sehingga tercatat pada Platform dianggap sebagai "Nomor Darurat Non-Aktif" apabila namun Nomor Darurat tersebut:
+												<ol class="help-para start1">
+													<li>tidak juga diangkat, memperoleh tanggapan atau respon; </li>
+													<li>tidak terdaftar, tidak aktif, tidak berfungsi ataupun secara permanen tidak lagi digunakan; dan/atau </li>
+													<li>telah berpindah tangan kepada pihak ketiga lain yang tidak terkait Peminjam atau telah digunakan oleh pihak lain yang mengaku tidak mengenal Peminjam.</li>
+												</ol>
+											</li>
+										</ol>
+									</p>
+									<p class="help-para">
+										<b><u>Hak LadangModal Menghubungi Nomor Darurat Pengganti</u></b>
+										<ol class="help-para continue">
+											<li>
+												Dalam hal terjadinya keadaan dimana Nomor Darurat dikualifisir sebagai Nomor Darurat Non-Aktif, maka LadangModal akan menghubungi Peminjam yang bersangkutan untuk meminta Nomor Darurat Pengganti untuk menjadi substitusi atau pengganti atas Nomor Darurat Non-Aktif tersebut di atas.
+											</li>
+											<li>
+												Jika oleh karena alasan apapun LadangModal tidak dapat memperoleh Nomor Darurat Pengganti dari Peminjam, maka LadangModal dapat memanfaatkan teknologi LadangModal untuk mengakses telepon seluler Peminjam yang digunakan untuk mengunduh (download) Platform dan/atau mengajukan Aplikasi Permohonan untuk memperoleh Nomor Darurat Pengganti ("<b>Telepon Seluler Peminjam</b>") dengan kriteria sebagai berikut untuk memilih Nomor Darurat Pengganti yang dimaksud melalui penelusuran terhadap
+												<ol class="help-para start1">
+													<li>
+														<i>call log</i> atau histori korespondensi melalui telepon pada Telepon Seluler Peminjam antara Peminjam dengan pihak lain dengan menilai kombinasi antara:
+														<ul class="help-para">
+															<li>nomor telepon yang terkini yang dihubungi Peminjam;</li>
+															<li>nomor telepon yang paling sering dihubungi Peminjam; dan/atau</li>
+															<li>nomor telepon yang paling lama dihubungi Peminjam.</li>
+														</ul>
+													</li>	
+													<li>
+														histori atau rekam jejak SMS (Short Message Service) pada Telepon Selular Peminjam antara Peminjam dengan pihak lain dengan menilai kombinasi antara:
+														<ul class="help-para">
+															<li>nomor pengirim SMS pada Peminjam dan/atau nomor yang terhadapnya dikirimkan SMS oleh Peminjam yang terkini;</li>
+															<li>nomor pengirim SMS pada Peminjam dan/atau nomor yang terhadapnya dikirimkan SMS oleh Peminjam dengan intensitas yang paling sering atau jumlah paling banyak.</li>
+														</ul>
+													</li>
+													<li>
+														<i>phonebook</i> atau daftar kontak/nomor telepon pada Telepon Selular Peminjam dimana LadangModal akan memilih nomor kontak sebagai Nomor Darurat Pengganti, dalam hal akses kepada atau perolehan Nomor Darurat Pengganti dari call log (histori korespondensi dengan cara menelepon) maupun histori atau rekam jejak SMS sebagaimana dimaksud di atas tidak dapat dilakukan atau dituntaskan oleh karena alasan apapun.
+													</li>
+												</ol>
+											</li>
+											<li>
+												LadangModal tidak akan menghubungi pihak pengirim SMS kepada Peminjam atau yang menerima SMS dari Peminjam yang merupakan pihak institusional seperti institusi perbankan, perusahaan pembiayaan atau pihak lain yang mengirimkan SMS terkait tagihan atau tunggakan kredit, pemesanan barang melalui daring (online), asuransi atau perusahaan telekomunikasi dalam konteks SIM Card provider atau layanan pra atau pasca bayar.
+											</li>
+											<li>
+												LadangModal akan melaksanakan haknya berdasarkan Kebijakan Privasi ini termasuk ketentuan mengenai Penggunaan Nomor Darurat dengan mematuhi ketentuan hukum dan peraturan perundang-undangan terkait serta menjunjung tinggi etika dan tanggung jawab yang baik.
+											</li>
+										</ol>
+									</p>
+									<p class="help-para">
+										<b><u>Pembebasan Tanggung Jawab LadangModal</u></b>
+										<ol class="help-para continue">
+											<li>
+												Peminjam dengan ini membebaskan, membela dan tidak membahayakan serta memberi ganti rugi terhadap LadangModal dan/atau Pemberi Pinjaman (berikut karyawan, direksi, komisaris, pemegang saham, perwakilan, kuasa, agen dan/atau afiliasinya) dari setiap kerugian, pengeluaran, ongkos maupun biaya yang timbul dari atau sehubungan dengan:
+												<ol class="help-para start1">
+													<li>sengketa dengan pihak ketiga terkait Nomor Darurat dan/atau Nomor Darurat Pengganti oleh karena alasan atau sebab sengketa apapun;</li>
+													<li>pelanggaran hak atau kerugian pihak ketiga atau pihak manapun terkait Nomor Darurat dan/atau Nomor Darurat Pengganti;</li>
+													<li>sanksi, investigasi atau penyelidikan, penyidikan, inspeksi atau audit maupun konsekuensi apapun dari atau terkait pelanggaran ketentuan hukum dan/atau peraturan perundang-undangan, kebijakan pemerintah dan/atau putusan badan peradilan atau arbitrase manapun akibat dari atau sehubungan dengan pelaksanaan hak LadangModal dalam ketentuan ini atau upaya menghubungi, mengakses, menelusuri, memperoleh dan/atau memanfaatkan Nomor Darurat dan/atau Nomor Darurat Pengganti.</li>
+												</ol>
+											</li>
+										</ol>
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									HAK PENGGUNA
+									</p>
+									<p class="help-para">
+										Sehubungan dengan penggunaan Layanan pada Platform, Pengguna berhak:
+										<ol class="help-para">
+											<li>atas kerahasiaan Data Pribadinya dan Nomor Darurat (termasuk Nomor Darurat Pengganti);</li>
+											<li>mengajukan pengaduan dalam rangka penyelesaian sengketa Data Pribadi atas kegagalan perlindungan Data Pribadi oleh kami kepada Menteri;</li>
+											<li>mendapatkan akses atau kesempatan untuk mengubah atau memperbaharui Data Pribadinya tanpa menganggu sistem pengelolaan Data Pribadi, kecuali ditentukan lain oleh ketentuan peraturan perundang-undangan;</li>
+											<li>mendapatkan akses atau kesempatan untuk memperoleh historis Data Pribadinya yang pernah diserahkan sepanjang masih sesuai dengan ketentuan peraturan perundang-undangan; </li>
+											<li>meminta pemusnahan Data Pribadi yang yang kami kelola, kecuali ditentukan lain oleh ketentuan peraturan perundang-undangan; dan</li>
+											<li>menentukan klasifikasi rahasia dan tidak rahasia dari Data Pribadi (apabila dibutuhkan).</li>
+										</ol>
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									PENGESAMPINGAN KEWAJIBAN
+									</p>
+									<p class="help-para">
+										<ol class="help-para">
+											<li>
+											Anda setuju untuk tidak meminta pertanggungjawaban kami atas pelanggaran, pelanggaran atau ketidakpatuhan terhadap Kebijakan Privasi atau perlindungan Data Pribadi dalam situasi berikut:
+												<ol class="help-para">
+													<li>dimana suatu tindakan alam atau keadaan yang tidak terduga telah terjadi, mengakibatkan kerusakan, kerusakan atau penghancuran peralatan dan/atau mesin yang digunakan untuk mengamankan, menyimpan atau memproses Data Pribadi Pengguna; </li>
+													<li>dimana Data Pribadi telah tersedia atau dapat ditemukan oleh publik sebelum Data Pribadi atau informasi semacam itu disampaikan kepada kami; </li>
+													<li>dimana setelah setiap usaha dan upaya yang wajar telah dilakukan oleh kami untuk memverifikasi, mengamankan dan melindungi data dan informasi pribadi yang kami berikan, ada akses tidak sah, hacking, penyalahgunaan, modifikasi, perubahan, gangguan;</li>
+													<li>atas keakurasian (kecuali Data Pribadi yang telah diverifikasi oleh LadangModal sesuai kebijakannya), keabsahan, legalitas dan kelengkapan Data Pribadi Anda dan tidak diwajibkan untuk memberitahu Anda atau pihak manapun perihal tersebut kecuali diwajibkan secara hukum; dan/atau</li>
+													<li>dimana penyalahgunaan Data Pribadi dan informasi yang disebabkan dengan tindakan kejahatan, penipuan atau tindak pidana apapun atau salah tindakan dari pihak ketiga yang tidak berada di bawah kendali atau instruksi kami.</li>
+												</ol>
+											</li>
+											<li>
+											Kami akan berupaya sewajarnya untuk memberitahu secara tertulis melalui <i>email</i> kepada Anda jika terjadi kegagalan perlindungan rahasia Data Pribadi dalam pengelolaan Platform baik yang disebabkan oleh kami atau ketika kami mengetahuinya dari pihak ketiga yang dikelola dengan ketentuan pemberitahuan sebagai berikut:
+												<ol class="help-para">
+													<li>dengan menyertakan alasan atau penyebab terjadinya kegagalan perlindungan rahasia Data Pribadi;</li>
+													<li>pemberitahuan tertulis lewat <i>email</i> kepada Anda paling lambat 14 (empat belas) hari sejak diketahui adanya kegagalan tersebut;</li>
+													<li>menyediakan <i>contact person</i> yang mudah dihubungi oleh Anda terkait pengelolaan Data Pribadi. </li>
+												</ol>
+											</li>
+										</ol>
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									COOKIES
+									</p>
+									<p class="help-para">
+										<ol class="help-para">
+											<li>Dengan mengunjungi dan menggunakan Platform, Anda mengetahui bahwa cookies dapat terpasang di perangkat Anda. Cookies adalah file yang mencatat informasi seperti jejak pencarian situs dari perangkat atau untuk mengumpulkan informasi log internet dan informasi perilaku pengunjung. Saat Anda mengunjungi Platform ini lagi, cookies akan memudahkan kami untuk menyesuaikan konten sesuai dengan kebutuhan Anda. Cookies ini tidak melacak informasi Pengguna secara individual, dan semua data cookie kami telah dienkripsi dan tidak dapat dibaca oleh Platform lain.</li>
+											<li>Walaupun secara otomatis perangkat komputer Anda akan menerima cookies, Anda dapat menentukan pilihan untuk melakukan modifikasi melalui pengaturan situs pencarian Anda yaitu dengan memilih untuk menolak cookies dengan menghapus cookies yang terpasang di perangkat Anda setiap saat dengan mengkonfigurasi perangkat lunak situs pencarian Anda. Anda mungkin tidak mendapatkan keuntungan dari beberapa Layanan pada Platform jika cookie dihapus atau dicegah agar tidak terpasang diperangkat Anda.</li>
+										</ol>
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									AKSES SOSIAL MEDIA
+									</p>
+									<p class="help-para">
+										<ol class="help-para">
+											<li>Dalam rangka penyediaan Layanan pada Platform, kami dapat meminta Anda untuk memberikan kami izin mengakses ke akun media sosial termasuk namun tidak terbatas pada Twitter, Facebook, Path, Google+ dan/atau Linkedln.</li>
+											<li>Anda tidak diwajibkan untuk memberikan akses ke akun media sosial milik Anda. Namun terkait dengan Layanan, Anda perlu memahami bahwa akses ke akun media sosial Anda dapat meningkatkan kesempatan Anda mendapatkan pinjaman lebih murah dengan kami.</li>
+											<li>
+												Dalam hal Anda memberikan kami akses ke data akun media sosial Anda, Anda harus memahami bahwa kami hanya menggunakan data tersebut untuk tujuan berikut:
+												<ol class="help-para">
+													<li>verifikasi identitas;</li>
+													<li>mitigasi risiko penipuan identitas;</li>
+													<li>statistik analisis/kuantitatif;</li>
+													<li>melakukan kontrol regulasi;</li>
+													<li>memberikan informasi dan menjawab pertanyaan; dan</li>
+													<li>mencegah penipuan, pencucian uang dan kegiatan kriminal lainnya.</li>
+												</ol>
+											</li>
+											<li>
+												Kami tidak akan menggunakan data Anda untuk tujuan lain yang tidak disebutkan di atas termasuk namun tidak terbatas pada:
+												<ol class="help-para">
+													<li>berbagi atau menjual data Anda langsung atau tidak langsung kepada pihak ketiga;</li>
+													<li>mengunggah informasi apapun untuk atau ke akun media sosial Anda termasuk namun tidak terbatas pada kepesertaan Anda pada LadangModal;</li>
+													<li>menghubungi setiap koneksi Anda pada jaringan sosial.</li>
+												</ol>
+											</li>
+										</ol>
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									PERUBAHAN KEBIJAKAN PRIVASI
+									</p>
+									<p class="help-para">
+										<ol class="help-para">
+											<li>Kebijakan Privasi ini mungkin diubah dan/atau diperbaharui dari waktu ke waktu. Ketika kami melakukannya, kami akan memperbaharui dan menerbitkan versi terbaru dari Kebijakan Privasi ini di Platform.</li>
+											<li>Anda disarankan untuk membaca secara saksama dan memeriksa Kebijakan Privasi ini dari waktu ke waktu agar Anda tetap terinformasikan mengenai perubahan terbaru dalam Kebijakan Privasi ini.</li>
+											<li>Kami dapat memberitahu Anda tentang perubahan yang dibuat pada Kebijakan Privasi ini melalui <i>email</i> ke alamat <i>email</i> Anda yang terdaftar.</li>
+											<li>Dengan tetap mengakses dan menggunakan Platform dan Layanan, maka Pengguna dianggap menyetujui perubahan-perubahan dalam Kebijakan Privasi ini.</li>
+										</ol>
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									LAIN-LAIN
+									</p>
+									<p class="help-para">
+										Kebijakan Privasi ini kami susun dengan menyesuaikan pada peraturan perundang-undangan yang berlaku termasuk namun tidak terbatas pada POJK No. 77/2016 dan Pekominfo No. 20/2016.
+									</p>
+								</li>
+								<li>
+									<p style="font-weight: bold;">
+									KONTAK
+									</p>
+									<p class="help-para">
+										Apabila ada pertanyaan, komentar dan permintaan mengenai Kebijakan Privasi dapat ditujukan kepada Petugas Perlindungan Data Kami di alamat surat elektronik (<i>email</i>): cs@LadangModal.com.
+									</p>
+								</li>
+						        <li>
+						            <p style="font-weight: bold;">
+						                Dengan menyetujui untuk menerima Pinjaman dari LadangModal berdasarkan Perjanjian Pinjaman, Peminjam menyatakan dan menjamin bahwa:
+									</p>
+						            <p class="help-para">
+						                Saya telah membaca dan memahami dengan seksama dan menyetujui seluruh isi dan bagian dari Kebijakan Privasi,
+						            </p>
+						            <p class="help-para">
+						                Saya menyetujui dan bersedia untuk terikat pada seluruh ketentuan Kebijakan Privasi, tanpa memerlukan tanda tangan konvensional atau tanda tangan basah, dan persetujuan yang saya berikan saat ini merupakan persetujuan elektronik yang diakui secara hukum sebagai alat bukti hukum yang sah berdasarkan Pasal 5 ayat 1 Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik mengenai kesepakatan dan persetujuan saya atas Kebijakan Privasi yang saya telah pahami, berikut segala akibat hukumnya bagi saya selaku Peminjam.
+						            </p>
+						            <p class="help-para">
+						                Saya menyadari bahwa persetujuan saya terhadap Kebijakan Privasi ini dianggap sebagai persetujuan elektronik (electronic consent) yang terekam dalam sistem elektronik LadangModal dan sah mengikat saya secara hukum sehingga tidak akan saya sangkal dan saya tidak bisa mengelak dari tuntutan untuk mematuhi Kebijakan Privasi ini.
+						            </p>
+						            <p class="help-para">
+						                Saya menerima bahwa setiap pemberian tanda centang ini sebagai alat bukti tunggal atas persetujuan saya terhadap ketentuan Kebijakan Privasi dalam rangka pembuktian menurut Pasal 1865 Kitab Undang-Undang Hukum Perdata, dan dengan demikian saya tidak akan memulai atau terlibat dalam upaya atau kegiatan apapun yang bertujuan untuk membatalkan persetujuan ini maupun mempengaruhi keberlakuannya. Oleh karena itu saya juga menyadari, mengakui, menerima dan menyetujui bahwa LadangModal tidak akan memberi tanggapan apapun terhadap setiap sangkalan, konflik, laporan atau argumen apapun dari saya pribadi terkait upaya untuk menentang keberlakuan dan keabsahan secara hukum Kebijakan Privasi ini.
+						            </p>
+						        </li>
+						    </ol>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="footer-style-1">
+
+		<div class="container show-hide-one">
+            <div class="row">
+                <div class="col-3">
+					<div style="font-size:15px;font-weight:bolder;">
+						LadangModal
+					</div>
+					<div style="margin-top:24px;">
+						<img style="width:121px;height:46px;" src="css/assets/img/footer/ok.png" />
+					</div>
+					<div class="footerIcon">
+						<div style="display:inline-block;"><a href="https://www.facebook.com/ladang.modal" ><img style="width:27px;" src="css/assets/img/footer/facebook.png" /></a></div>
+						<div style="display:inline-block;"><a href="https://twitter.com/ladangmodal" ><img style="width:27px;" src="css/assets/img/footer/t.png" /></a></div>
+						<div style="display:inline-block;"><a href="https://www.instagram.com/ladangmodal/" ><img style="width:27px;" src="css/assets/img/footer/3.png" /></a></div>
+					
+					</div>
+                </div>
+                
+				<div class="col-3">
+					<div class="footer-world">
+						<div class="footerworld1"><a href="/InfromasiProduk">Informasi Produk</a></div>
+						<div class="footerworld2"><a href="/privacy">Perjanjian Privasi</a></div>
+						<div class="footerworld2"><a href="/PeringatanResiko">Peringatan Resiko</a></div>
+						<div class="footerworld2"><a href="/helpcenter">FAQ</a></div>
+					</div>
+				</div>
+				<div class="col" style="text-align: right;font-size:16px;">
+					<div style="color:#cccccc;"><img style="border-radius: 50%;" src="css/assets/img/footer/logo.png"></div>
+					<div class="footerRightWorld"><img style="width:22px;" src="css/assets/img/footer/phone.png"><span style="margin-left:5px;">02139506666</span></div>
+					<div class="footerRightWorld"><img style="width:22px;" src="css/assets/img/footer/email.png"><span style="margin-left:5px;">cs@ladangmodal.com</span></div>
+					
+				</div>
+            </div>
+			<div class="row footer-line" style="margin-right: 0px !important;margin-left: 0px !important;">
+				<div class="col" style="margin-top:40px;color: #FFFFFF;font-size:12px;font-family: 'Helvetica';padding-right: 0px;">
+					
+						<ol class="footer-content">
+							<div class="col" style="margin-right: 14px;">
+                                <li>
+                                    Layanan Pinjam Meminjam Berbasis Teknologi Informasi merupakan kesepakatan perdata antara Pemberi Pinjaman dengan Penerima Pinjaman, sehingga segala risiko yang timbul dari kesepakatan tersebut ditanggung sepenuhnya oleh masing-masing pihak.
+                                </li>
+                                <li>
+                                    Risiko kredit atau gagal bayar ditanggung sepenuhnya oleh Pemberi Pinjaman. Tidak ada lembaga atau otoritas negara yang bertanggung jawab atas risiko gagal bayar ini.
+                                </li>
+                                <li>
+                                    Penyelenggara dengan persetujuan dari masing-masing Pengguna (Pemberi Pinjaman dan/atau Penerima Pinjaman) mengakses, memperoleh, menyimpan, mengelola dan/atau menggunakan data pribadi Pengguna ("<b>Pemanfaatan Data</b>") pada atau di dalam benda, perangkat elektronik (termasuk <i>smartphone</i> atau telepon seluler), perangkat keras (<i>hardware</i>) maupun lunak (<i>software</i>), dokumen elektronik, aplikasi atau system elektronik milik Pengguna atau yang dikuasai Pengguna, dengan memberitahukan tujuan, batasan dan mekanisme Pemanfaatan Data tersebut kepada Pengguna yang bersangkutan sebelum memperoleh persetujuan yang dimaksud.
+                                </li>
+                                <li>
+                                    Pemberi Pinjaman yang belum memiliki pengetahuan dan pengalaman pinjam meminjam, disarankan untuk tidak menggunakan layanan ini.
+                                </li>
+                                <li>
+                                    Penerima Pinjaman harus mempertimbangkan tingkat bunga pinjaman dan biaya lainnya sesuai dengan kemampuan dalam melunasi pinjaman.
+                                </li>
+                                
+                                
+							</div>
+							<div class="col" style="padding-right:0px;">
+								<li>
+                                    Setiap kecurangan tercatat secara digital di dunia maya dan dapat diketahui masyarakat luas di media sosial.
+                                </li>
+                                <li>
+                                    Pengguna harus membaca dan memahami informasi ini sebelum membuat keputusan menjadi Pemberi Pinjaman atau Penerima Pinjaman.
+                                </li>
+                                <li>
+                                    Pemerintah yaitu dalam hal ini Otoritas Jasa Keuangan, tidak bertanggung jawab atas setiap pelanggaran atau ketidakpatuhan oleh Pengguna, baik Pemberi Pinjaman maupun Penerima Pinjaman (baik karena kesengajaan atau kelalaian Pengguna) terhadap ketentuan peraturan perundang-undangan maupun kesepakatan atau perikatan antara Penyelenggara dengan Pemberi Pinjaman dan/atau Penerima Pinjaman.
+                                </li>
+                                <li>
+                                    Setiap transaksi dan kegiatan pinjam meminjam atau pelaksanaan kesepakatan mengenai pinjam meminjam antara atau yang melibatkan Penyelenggara, Pemberi Pinjaman dan/atau Penerima Pinjaman wajib dilakukan melalui escrow account dan virtual account sebagaimana yang diwajibkan berdasarkan Peraturan Otoritas Jasa Keuangan Nomor 77/POJK.01/2016 tentang Layanan Pinjam Meminjam Uang Berbasis Teknologi Informasi dan pelanggaran atau ketidakpatuhan terhadap ketentuan tersebut merupakan bukti telah terjadinya pelanggaran hukum oleh Penyelenggara sehingga Penyelenggara wajib menanggung ganti rugi yang diderita oleh masingmasing Pengguna sebagai akibat langsung dari pelanggaran hukum tersebut di atas tanpa mengurangi hak Pengguna yang menderita kerugian menurut Kitab Undang-Undang Hukum Perdata.
+                                </li>
+							</div>
+						</ol>
+					
+					
+				</div>
+			</div>
+			
+			<div class="copyright-panel footer-copy-panel">
+				Copyright &copy; 2015-<span id="copyrightyear">2019</span> LadangModal All Rights Reserved by PT Digital Synergy Technology
+			</div>
+		</div>
+		
+		<div class="footer-container-mobile show-hide-two">
+            <div class="row footer-row">
+                <div class="col" style="text-align: center;">
+					<div style="font-size:15px;font-weight:bolder;">
+						LadangModal
+					</div>
+					<div style="margin-top:10px;">
+						<img style="width:121px;height:46px;" src="css/assets/img/footer/ok.png" />
+					</div>
+					<div class="footerIcon">
+						<div style="display:inline-block;"><a href="https://www.facebook.com/ladang.modal" ><img style="width:27px;" src="css/assets/img/footer/facebook.png" /></a></div>
+						<div style="display:inline-block;"><a href="https://twitter.com/ladangmodal" ><img style="width:27px;" src="css/assets/img/footer/t.png" /></a></div>
+						<div style="display:inline-block;"><a href="https://www.instagram.com/ladangmodal/" ><img style="width:27px;" src="css/assets/img/footer/3.png" /></a></div>
+					
+					</div>
+                </div>
+            </div>
+			<div class="row footer-row">
+				<div class="col" style="text-align: center;">
+					<div class="footer-world footer-style-last-line">
+					<div class="footerworld1 footer-style-line"><a href="/InfromasiProduk">Informasi Produk</a></div>
+					<div class="footerworld2 footer-style-line"><a href="/privacy">Perjanjian Privasi</a></div>
+					<div class="footerworld2 footer-style-line"><a href="/PeringatanResiko">Peringatan Resiko</a></div>
+					<div class="footerworld2 footer-style-line "><a href="/helpcenter">FAQ</a></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="row footer-row" style="margin-top:25px;">
+				<div class="col" style="text-align: center;">
+					<div style="color:#cccccc;"><img style="border-radius: 50%;" src="css/assets/img/footer/logo.png"></div>
+					<div class="footerRightWorld"><img style="width:22px;" src="css/assets/img/footer/phone.png"><span style="margin-left:5px;">02139506666</span></div>
+					<div class="footerRightWorld"><img style="width:22px;" src="css/assets/img/footer/email.png"><span style="margin-left:5px;">cs@ladangmodal.com</span></div>
+					
+				</div>
+            </div>
+			
+			<div class="footer-border-line"></div>
+			<div class="row footer-line" style="margin-right: -15px;margin-left: 15px;">
+				<div class="col footer-col" style="margin-top:19px;color: #FFFFFF;font-size:12px;font-family: 'Helvetica';">
+					
+						<ol class="footer-content">
+							<div class="col footer-col">
+                                <li>
+                                    Layanan Pinjam Meminjam Berbasis Teknologi Informasi merupakan kesepakatan perdata antara Pemberi Pinjaman dengan Penerima Pinjaman, sehingga segala risiko yang timbul dari kesepakatan tersebut ditanggung sepenuhnya oleh masing-masing pihak.
+                                </li>
+                                <li>
+                                    Risiko kredit atau gagal bayar ditanggung sepenuhnya oleh Pemberi Pinjaman. Tidak ada lembaga atau otoritas negara yang bertanggung jawab atas risiko gagal bayar ini.
+                                </li>
+                                <li>
+                                    Penyelenggara dengan persetujuan dari masing-masing Pengguna (Pemberi Pinjaman dan/atau Penerima Pinjaman) mengakses, memperoleh, menyimpan, mengelola dan/atau menggunakan data pribadi Pengguna ("<b>Pemanfaatan Data</b>") pada atau di dalam benda, perangkat elektronik (termasuk <i>smartphone</i> atau telepon seluler), perangkat keras (<i>hardware</i>) maupun lunak (<i>software</i>), dokumen elektronik, aplikasi atau system elektronik milik Pengguna atau yang dikuasai Pengguna, dengan memberitahukan tujuan, batasan dan mekanisme Pemanfaatan Data tersebut kepada Pengguna yang bersangkutan sebelum memperoleh persetujuan yang dimaksud.
+                                </li>
+                                <li>
+                                    Pemberi Pinjaman yang belum memiliki pengetahuan dan pengalaman pinjam meminjam, disarankan untuk tidak menggunakan layanan ini.
+                                </li>
+                                <li>
+                                    Penerima Pinjaman harus mempertimbangkan tingkat bunga pinjaman dan biaya lainnya sesuai dengan kemampuan dalam melunasi pinjaman.
+                                </li>
+                                <li>
+                                    Setiap kecurangan tercatat secara digital di dunia maya dan dapat diketahui masyarakat luas di media sosial.
+                                </li>
+                                <li>
+                                    Pengguna harus membaca dan memahami informasi ini sebelum membuat keputusan menjadi Pemberi Pinjaman atau Penerima Pinjaman.
+                                </li>
+                                <li>
+                                    Pemerintah yaitu dalam hal ini Otoritas Jasa Keuangan, tidak bertanggung jawab atas setiap pelanggaran atau ketidakpatuhan oleh Pengguna, baik Pemberi Pinjaman maupun Penerima Pinjaman (baik karena kesengajaan atau kelalaian Pengguna) terhadap ketentuan peraturan perundang-undangan maupun kesepakatan atau perikatan antara Penyelenggara dengan Pemberi Pinjaman dan/atau Penerima Pinjaman.
+                                </li>
+                                <li>
+                                    Setiap transaksi dan kegiatan pinjam meminjam atau pelaksanaan kesepakatan mengenai pinjam meminjam antara atau yang melibatkan Penyelenggara, Pemberi Pinjaman dan/atau Penerima Pinjaman wajib dilakukan melalui escrow account dan virtual account sebagaimana yang diwajibkan berdasarkan Peraturan Otoritas Jasa Keuangan Nomor 77/POJK.01/2016 tentang Layanan Pinjam Meminjam Uang Berbasis Teknologi Informasi dan pelanggaran atau ketidakpatuhan terhadap ketentuan tersebut merupakan bukti telah terjadinya pelanggaran hukum oleh Penyelenggara sehingga Penyelenggara wajib menanggung ganti rugi yang diderita oleh masingmasing Pengguna sebagai akibat langsung dari pelanggaran hukum tersebut di atas tanpa mengurangi hak Pengguna yang menderita kerugian menurut Kitab Undang-Undang Hukum Perdata.
+                                </li>
+							</div>
+						</ol>
+				</div>
+			</div>
+			
+			<div class="copyright-panel footer-copy-panel">
+				Copyright &copy; 2015-<span id="copyrightyear">2019</span> LadangModal All Rights Reserved by PT Digital Synergy Technology
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+</html>

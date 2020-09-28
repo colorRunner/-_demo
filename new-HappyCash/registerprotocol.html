@@ -1,0 +1,505 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/assets/plugins/bootstrap-4.1.1/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/assets/plugins/fontawesome-5.1.0/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/assets/css/newStyle.css" />
+	<link rel="stylesheet" type="text/css" href="css/assets/plugins/slide/css/jquery.bxslider.css" />
+	<link rel="stylesheet" type="text/css" href="css/assets/plugins/swiper/swiper.css" />
+	<script src="css/assets/plugins/jquery-3.3.1.min.js"></script>
+	<script src="css/assets/plugins/slide/js/jquery.bxslider.js"></script>
+	<script src="css/assets/plugins/swiper/swiper.js"></script>
+	
+	<style>
+		#ol_priv .help-para { margin: 0; }
+		#ol_priv ol.start { 
+			counter-reset: mycounter; 
+		}
+		#ol_priv ol.start li, #ol_priv ol.continue li {
+			list-style: none;
+		}
+		#ol_priv ol.start li:before, #ol_priv ol.continue li:before { 
+			content: counter(mycounter, lower-latin) ". "; 
+			counter-increment: mycounter;
+		}
+		#ol_priv ol.start1 { 
+			counter-reset: mycounter1; 
+			list-style-type: lower-latin;
+		}
+		#ol_priv ol.start1 li, #ol_priv ol.continue1 li {
+			list-style: none;
+		}
+		#ol_priv ol.start1 li:before, #ol_priv ol.continue1 li:before { 
+			content: "(" counter(mycounter1, lower-latin) ") "; 
+			counter-increment: mycounter1;
+		}
+		#ol_priv ul > li { list-style-type: disc; }
+		#ol_priv > ol > li {  margin-bottom: 10px; }
+		#ol_priv > ol > li > ol > li { list-style-type: lower-latin; }
+		#ol_priv > ol > li > ol > li > ol > li { list-style-type: lower-roman; }
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white mainnavbar" id="mainnavbar">
+	
+	<div class="container head-container">
+	  <a class="navbar-brand show-hide-one" href="/"><img class="logo-img" src="css/assets/img/index/VectorSmartObject.png" style="height:27px;"/></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  
+	  <a class="navbar-brand show-hide-two navbar-mobile-logo" href="/"><img class="logo-img" src="css/assets/img/index/VectorSmartObject.png" style="height:27px;"/></a>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  
+	  	<ul class="navbar-nav ml-auto">
+		  <li class="nav-item">
+		    <a class="nav-link menuFirst">FAQs</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link menuSecond">About Us</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link menuSecond" href="/terms">Contact Us</a>
+		  </li>
+		  <li class="dropdown">
+		    <a class="nav-link menuThree dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		     
+		    </a>
+		    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		      <a class="dropdown-item"></a>
+		      <a class="dropdown-item"></a>
+		      <a class="dropdown-item"></a>
+		    </div>
+		  </li>
+		  <li style="margin-left:20px;">
+			<a class="nav-link">|</a>
+		  </li>
+		  <li style="margin-left:20px;">
+			<a class="nav-link" style="color: #0DD9EF !important;"><img style="margin-right:5px;" src="css/assets/img/index/tel.png"/>09272356293</a>
+		  </li>
+		</ul>
+	   
+	  </div>
+	
+	</div>
+</nav>
+
+    <div class="content privacy-container">
+        <div class="section1" id="section1" style="font-size: 0.8rem;">
+            <div class="container">
+                <div class="row mt-5 mb-4 font-weight-bold container-title">
+                    <div class="col-auto" style="width:100%;">
+                        <div style="text-align:center;font-size: 1.4rem !important;font-weight: bold;padding: 50px 20px;padding-bottom: 50px;">Privacy Policy</div>
+                    </div>
+                </div>
+                <div class="row" style="font-size: 1.1rem;">
+					<div class="col">
+						<div id="ol_priv" style="text-align: justify;">
+								<p class="help-para">
+									We are committed to protecting and respecting your privacy.html rights under the Applicable Privacy Laws, as defined in this Privacy Policy and Manual. This Privacy Policy and Manual sets out the privacy practices of HappyCash. (referred to as "we", "us", "our"). Capitalized terms used but not defined herein have the same meanings assigned to them in the Applicable Privacy Laws.</br>
+									</br>
+									We are committed to ensuring that our privacy management practices comply with the Applicable Privacy Laws as well as with our contractual commitments in the conduct of our business. HappyCash staff are thus required to respect the confidentiality of all Personal Data and the privacy of individuals, and we have directed our staff that Personal Data must be dealt with in accordance with this Privacy Policy and Manual.
+								</p>
+								<ol style="list-style: none;">
+									<li>
+							            <p style="font-weight: bold;margin-left: -15px;">
+							            	1. Definitions 
+							            </p>
+							            <p class="help-para">
+								            For purposes of this Privacy Policy and Manual, the following definitions shall apply:</br>
+								            </br>
+								            "<b>Applicable Privacy Laws</b>" means Republic Act No. 10173, also known as the Data Privacy Act of 2012, its Implementing Rules and Regulations, other relevant laws and issuances by the NPC, and any other legislation protecting the fundamental rights and freedoms of individuals, if applicable.<br/>
+											</br>
+											"<b>DPA</b>" refers to Republic Act No. 10173 or the Philippine "Data Privacy Act of 2012".<br/>
+											</br>
+											"<b>Personal Information</b>","<b>Sensitive Personal Information</b>","<b>Personal Data</b>","<b>Data Subject</b>","<b>Processing</b>","<b>Personal Information Controller</b>", and "<b>Personal Information Processor</b>", shall have the same meaning as set forth in the Implementing Rules and Regulations of the DPA, as may be amended and supplemented from time to time. <br/>
+											</br>
+											"<b>Personal Data Breach</b>" refers to a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, Personal Data transmitted, stored, or otherwise processed, that requires notification to the NPC under the DPA and its implementing rules and regulations, including the relevant NPC issuances. <br/>
+											</br>
+											"<b>NPC</b>" means the National Privacy Commission.<br/>
+										</p>
+						        	</li>
+						        	<li>
+							            <p style="font-weight: bold;margin-left: -15px;">
+							            	2. Scope and Application
+							            </p>
+							            <ol class="help-para">
+											
+											<li>This Privacy Policy and Manual outlines the responsibilities of HappyCash, inluding its employees and personnel, concerning the protection of Personal Data entrusted to HappyCash by its clients, customers, contractors, or those individuals with whom we have been in contact with, including those Personal Data that may have come to our possession in any manner through the conduct of our business.</li>
+											</br>
+											<li>The application of this Privacy Policy and Manual is subject to the requirements or provisions of the Applicable Privacy Laws. All HappyCash employees, contractors and agents with access to Personal Data are required to comply with this Privacy Policy and Manual.</li>
+											
+										</ol>
+									</li>
+									
+									<li>
+							            <p style="font-weight: bold;margin-left: -15px;">
+							            	3. Policy Statement
+							            </p>
+							            <p class="help-para">
+							            	HappyCash is committed to complying with the Applicable Privacy Laws. For this purpose, HappyCash adheres to the general data privacy principles of Transparency, Legitimate Purpose and Proportionality and requirements of lawful processing, as described below.</br>
+											</br>
+											<p class="help-para">
+												<u><b>Principle of Transparency</b></u>
+												</br>
+												<ol class="help-para">
+													</br>
+													<li style="list-style-type: none;">HappyCash is aware of its duty to inform Data Subjects of the nature, purpose, and extent of the processing of their Personal Data. HappyCash will provide Data Subjects of specific information relating to the collection and processing of their Personal Data, such as, the identity and contact details of the personal information controller or its representative, scope and method of processing, the recipient or classes of recipients of their Personal Data, and the basis of processing of their Personal Data when they have not provided consent.</li>
+												</ol>
+											</p>
+											
+											<p class="help-para">
+												<b><u>Principle of Legitimate Purpose</u></b>
+												</br>
+												<ol class="help-para">
+													</br>
+													<li style="list-style-type: none;">HappyCash will only undertake processing of Personal Data that is compatible with a declared and specified purpose that is not contrary to law, public morals, or public policy.</li>
+												</ol>
+											</p>
+											
+											<p class="help-para">
+												<b><u>Principle of Proportionality</u></b>
+												</br>
+												<ol class="help-para">
+													</br>
+													<li style="list-style-type: none;">HappyCash will process Personal Data only when it is relevant, necessary, adequate, and compatible with the declared and specified purposes made known to the Data Subjects and for which Personal Data were collected. HappyCash will only retain Personal Data for as long as necessary for the fulfillment of these purposes for which HappyCash collected your Personal Data.</li>
+												</ol>
+											</p>
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											4. How Personal Data is Collected
+										</p>
+										<p class="help-para">
+											We generally collect Personal Data directly from you, for example when you send us correspondence by e-mail or in writing, deal with us over the telephone or in person, contact us, request a quote or information, provide online feedback, register or provide contact details in relation to an event, function, exhibition, promotion or other activity through one of our websites administered by HappyCash or any related company. HappyCash collects only those Personal Data that is reasonably necessary for its activities.</br>
+											</br>
+											Personal Data collected by HappyCash includes but is not limited to:
+											<ol class="help-para">
+												</br>
+												<li>names, addresses, email addresses, roles, telephone and fax numbers and other contact details and means of communication,</li>
+												</br>
+												<li>details about company or industry;</li>
+												</br>
+												<li>identifying details such as gender, date of birth, personal attributes, nationality, passport/identification card number and country of residence; and</li>
+												</br>
+												<li>payment information such as credit or debit card information, including the name of cardholder, card number, card issuing bank, card issuing country and expiry date; banking account details</li>
+											</ol>
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											5. Purposes for Collecting and Processing of Personal Data
+										</p>
+										<p class="help-para">
+											HappyCash collects Personal Data from customers, suppliers and contractors, to enable HappyCash to conduct its business. The purposes for which HappyCash uses Personal Data of customers, suppliers and contractors and include (but are not limited to):
+											<ol class="help-para">
+												</br>
+												<li>to provide them with its services and/or products;</li>
+												</br>
+												<li>to improve and develop its services and/or products;</li>
+												</br>
+												<li>to provide ongoing support or help to manage its services and/or products, for example if they have a query;</li>
+												</br>
+												<li>to obtain services and/or products or obtain information about services and/or products;</li>
+												</br>
+												<li>to bill, collect payment or make payment including for the purpose of accounting and account administration and auditing;</li>
+												</br>
+												<li>to communicate with them;</li>
+												</br>
+												<li>to provide information about other products or services that HappyCash considers would interest them;</li>
+												</br>
+												<li>to help HappyCash run its business, for example to improve its products or services, security, safety or operations, to conduct training, to undertake marketing activities or statistical or marketing analysis and customer surveys, to manage information systems, test, develop and maintain systems and security controls; and</li>
+												</br>
+												<li>to comply with its legal obligations.</li>
+												</br>
+											</ol>
+											If HappyCash collects your personal information to be used for any other purpose, we will let you know that purpose at the time we collect the information.
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											6. Personal Data of Employees and Job Applicants
+										</p>
+										<p class="help-para">
+											HappyCash collects Personal Data of job applicants and staff members for the primary purpose of assessing and (if successful) engaging the applicant or staff member as the case may be.</br>
+											</br>
+											The purposes for which HappyCash uses Personal Data of job applicants and staff members include:
+											<ol class="help-para">
+												</br>
+												<li>comparing against job specification or criteria and assessing suitability for employment and generally for the processing of employment application;</li>
+												</br>
+												<li>internal and external investigations including disciplinary, grievance, and regulatory issues, and carrying out checks such as medical and police record checks;</li>
+												</br>
+												<li>managing individual's employment or engagement and the provision of employee references;</li>
+												</br>
+												<li>insurance purposes;</li>
+												</br>
+												<li>ensuring that it holds relevant contact information;</li>
+												</br>
+												<li>monitoring compliance with legal requirements, internal rules or contractual obligations of HappyCash;</li>
+												</br>
+												<li>human resources management purposes;</li>
+												</br>
+												<li>other purposes directly relating to any of the above.</li>
+											</ol>
+											
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											7. AUTOMATED PROCESSING
+										</p>
+										<p class="help-para">
+											Personal Data we collect may be accessed or processed (automatically or manually) by us in accordance with and for the purposes mentioned in this Privacy Policy and Manual.</br>
+											</br>
+											<b><u>Disclosure of Personal Data</u></b></br>
+											</br>
+											HappyCash aims to confine its disclosure of Personal Data to the primary purpose for which it has been collected, or for a related purpose. This means HappyCash will only disclose personal information in connection with its business and administrative functions, including when disclosure is necessary to provide you with a product or service that you have requested, help us with the running of our organisation, or for security reasons.</br>
+											</br>
+											Sometimes we may also disclose your Personal Data outside HappyCash for the purpose for which the information was collected, or for a related purpose. For instance, when disclosure is necessary to provide you with a product, service or activity you have requested, to help us with the running of our organisation, or for security reasons or to comply with applicable laws, including but not limited to, Republic Act No. 9510, otherwise known as the Credit Information System Act of 2008, Republic Act No. 9160, as amended, otherwise known as the Anti-Money Laundering Act, and other applicable laws.</br>
+											</br>
+											We may also disclose your Personal Data to comply with court orders, enforcement actions by regulators or any other legal proceedings, to pursue any remedies available to us or limit damages that we may suffer, or to respond to requests from governmental authorities.</br>
+											</br>
+											For the above reasons, we may provide your Personal Data to:
+											<ol class="help-para">
+												</br>
+												<li>our affiliate entities and business partners;</li>
+												</br>
+												<li>our agents, contractors, professional advisers or third party service providers (including their employees, directors and officers) who provide us with or other services under a duty of confidentiality to us; the service they provide to us may include, where approved by the applicable law, fraud prevention, remittance, currency exchange, bill collection, data entry, database management, software development, promotion, marketing, customer service, technology services, products and services alerts and payment extension services, and other similar services;</li>
+												</br>
+												<li>merchants and other organizations;</li>
+												</br>
+												<li>third party financial institutions, such as banks, collection agents and credit agencies;</li>
+												</br>
+												<li>professional advisers, law enforcement agencies, insurers, government and regulatory authorities or any other organizations to which HappyCash is under an obligation to make disclosures under the requirements of any applicable law, regulation or commercial arrangement; and</li>
+												</br>
+												<li>entities involved in any merger, acquisition, financing transaction or joint venture with us.</li>
+												</br>
+											</ol>
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											8. LAWFUL COLLECTION AND PROCESSING OF PERSONAL DATA
+										</p>
+										<p class="help-para">
+											To the extent required by Applicable Privacy Laws, HappyCash or any third party service providers engaged by us will aim to obtain your consent to collect and use your Personal Data at the time of collection. HappyCash adopts an 'opt-in' policy to obtain your express consent when collecting your Personal Data. You may be asked, for example, to sign a form or tick a box on a website. If you do not permit the collection, use, processing or disclosure of some Personal Data as HappyCash has notified or requests, HappyCash then may not be able to meet its legal obligations or may not be able to do business with you or engage you to work for HappyCash. If that is the case, we will let you know. In most instances, it is obligatory for you to provide us with your Personal Data in order to allow us to satisfy your request or provide you with the service that you have requested.
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											9. Protection of Personal Data
+										</p>
+										<p class="help-para">
+											<ol class="help-para">
+												</br>
+												<li>HappyCash is also committed in upholding the rights of data subjects, as described in this Privacy Policy and Manual. In this regard, HappyCash implements appropriate structures, systems and processes to manage all Personal Data fairly and lawfully and in a way that ensures its integrity, accuracy, relevance and security. HappyCash also has security systems in place which are intended to protect your Personal Data from misuse, loss, unauthorised access, modification or disclosure.</li>
+												</br>
+												<li>HappyCash implements reasonable and appropriate physical, technical, and organizational measures for the protection of Personal Data. These security measures aim to maintain the availability, integrity, and confidentiality of Personal Data and protect them against natural dangers such as accidental loss or destruction, and human dangers such as unlawful access, fraudulent misuse, unlawful destruction, alteration and contamination.</li>
+												</br>
+												<li>HappyCash will not disclose Personal Data to third parties except where disclosures are permitted or required by law and in such cases, only in accordance with this Privacy Policy and Manual.</li>
+											</ol>
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											10. Retention
+										</p>
+										<p class="help-para">
+											HappyCash will keep any Personal Data collected from you only as long as it remains necessary or relevant for the purposes for which they were collected, unless longer retention period is otherwise required to meet legal or regulatory requirements.
+										
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											11. Security Incident Management
+										</p>
+										<p class="help-para">
+											<ol class="help-para">
+												<li>HappyCash has developed a comprehensive incident readiness and response plan designed to identify the cause, extent and nature of an incident involving Personal Data and to allow timely reporting to the NPC and/or the any affected Data Subject in accordance with Applicable Privacy Laws and our contractual terms.</li>
+												</br>
+												<li>HappyCash will provide reasonable assistance to any affected Data Subject to investigate and assist in the reporting of the incident to the NPC or other required parties to prevent or minimise any loss or harm arising from such incident.</li>
+											</ol>
+										</p>
+									</li>
+									
+									<li>
+										<p style="font-weight: bold;margin-left: -15px;">
+											12. YOUR Rights AS A Data Subject
+										</p>
+										<p class="help-para">
+											Under the DPA, you have the right to be informed of your data privacy rights. These rights include the following:
+											
+											<ol class="help-para">
+												</br>
+												<li>
+													Right to be informed - prior to collection and processing of your Personal Data, you have the right to be informed of the following:
+													<ol class="help-para">
+														</br>
+														<li>The fact of collection and processing of your Personal Data;</li>
+														<li>Description and categories of Personal Data being collected and processed;</li>
+														<li>Purpose for the collection, and processing, including the purposes for data sharing or automated processing;</li>
+														<li>Lawful basis of the collection and processing, in case you have not given consent;</li>
+														<li>Scope and method of personal data processing;</li>
+														<li>Identities of intended recipients of Personal Data;</li>
+														<li>Methods and logic used for automated processing, if any;</li>
+														<li>Identity and contact details of the personal data controller (other than the Company) or its representative;</li>
+														<li>Retention period; </li>
+														<li>Rights of a data subject.</li>
+													</ol>
+												</li>
+												</br>
+												<li>Right to object - you have the right to indicate your refusal to the collection and processing of your Personal Data, including processing for direct marketing, automated processing, or profiling. You also have the right to be informed and to withhold your consent to further processing in case there are any changes or amendments to information given to you concerning the processing of your Personal Data.</li>
+												</br>
+												<li>
+													Right to access - upon request in writing, you have the right to be given access to the following:
+													<ol class="help-para">
+														</br>
+														<li>Contents of your Personal Data that were processed;</li>
+														<li>Sources from which your Personal Data were obtained;</li>
+														<li>Identities and addresses of recipients of your Personal Data;</li>
+														<li>Manner by which your Personal Data were processed;</li>
+														<li>Purposes for granting access to the recipients of your Personal Data;</li>
+														<li>Information on automated processing, in case the data was used as the sole basis for any decision that significantly affects or will significantly affect you;</li>
+														<li>Date when your Personal Data was last accessed or modified;</li>
+														<li>The designation, identity, and address of the controller other than HappyCash, if any.</li>
+													</ol>
+												</li>
+												</br>
+												<li>Right to rectification - you have the right to dispute any inaccuracy or error in your Personal Data and may request us to immediately correct any such inaccuracy or error. Upon reasonable request, and after the correction has been made, we will inform any recipient of your Personal Data of the inaccuracy and the subsequent rectification that was made.</li>
+												</br>
+												<li>Right to erasure or blocking - in the absence of any other legal ground or overriding legitimate interest for the lawful processing of your Personal Data, or when there is substantial proof that Personal Data is incomplete, outdated, false, or has been unlawfully obtained, you may request us to suspend, withdraw, or order the blocking, removal, or destruction of your Personal Data from our filing system.</li>
+												</br>
+												<li>Right to damages - you have the right to be indemnified for any damages sustained due to inaccurate, incomplete, outdated, false, unlawfully obtained, or unauthorized use of your Personal Data, taking into account any violation of you rights and freedoms as a data subject.</li>
+												</br>
+												<li>Right to data portability - in case your Personal Data was processed through electronic means and in a structured and commonly used format, you have the right to obtain a copy of your Personal Data in such electronic or structured format for your further use, subject to the guidelines of the NPC with regard to the exercise of such right.</li>
+												</br>
+												<li>Transmissibility of rights of the Data Subject - upon your death, or in case of your incapacity or incapability, your lawful heirs and assigns may invoke your rights as a data subject in your place and stead.</li>
+												</br>
+												<li>Right to lodge a complaint before the NPC - you have the right to lodge a complaint before the NPC in accordance with their rules of procedure.</li>
+											</ol>
+										</p>
+									</li>
+									
+									<li>
+							            <p style="font-weight: bold;margin-left: -15px;">
+							            13. Complaints
+							            </p>
+							            <p class="help-para">
+							            	
+							            	For any complaint about HappyCash's compliance with Applicable Privacy Laws, you may contact us through our Data Protection Officer through the contact details indicated below.</br>
+							            	</br>
+							            	HappyCash will investigate all complaints concerning compliance with this Privacy Policy and Manual. If a complaint is found to be justified, HappyCash will take appropriate measures to resolve the complaint including, if necessary, amending its policies and procedures.</br>
+							            	</br>
+							            	<p class="help-para">
+												<u><b>Data Protection Officer</b></u>
+												
+												<ol class="help-para">
+													</br>
+													<li>Our Data Protection Officer is responsible for managing any issues with Personal Data collected by HappyCash and can be reached at any of the following contact details:</li>
+													</br>
+													<li>All HappyCash Personnel are responsible for reporting actual or suspected Personal Data Breaches to our Data Protection Officer.</li>
+												</ol>
+											</p>
+										</p>
+									</li>
+									
+									<li>
+							            <p style="font-weight: bold;margin-left: -15px;">
+							            	14. EFFECTIVITY
+							            </p>
+							            <p class="help-para">
+							            	This Privacy Policy and Manual takes effect on 20/01/2019 until revoked or amended. It shall be reviewed and evaluated annually. Privacy and security policies and practices within HappyCash shall be updated from time to time to remain consistent with current data privacy best practices. Any updated versions of this Privacy Policy and Manual will be posted on our website
+										</p>
+									</li>
+						      </ol>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	
+	<div class="footer-style-1">
+		<div class="container footer-container show-hide-one">
+            <div class="row" style="color:#FFFFFF;">
+                <div class="col" style="font-weight:bold;">
+					<div>
+						<img src="css/assets/img/index/DowloadHappyCash.png" />
+					</div>
+					<div style="margin-top:18px;">
+						<img style="border-radius:5px;" src="css/assets/img/index/google.png" />
+					</div>
+					<div class="footerIcon">
+						<div style="display:inline-block;"><a><img style="width:40px;" src="css/assets/img/index/FB.png" /></a></div>
+						<div style="display:inline-block;"><a><img style="width:40px;" src="css/assets/img/index/TW.png" /></a></div>
+						<div style="display:inline-block;"><a><img style="width:40px;" src="css/assets/img/index/IG.png" /></a></div>
+					</div>
+                </div>
+				<div class="col" style="text-align: right;">
+					<div>Hotline</div>
+					<div>09272356293</div>
+					<div class="footerRightWorld">9:30-18:30 (Monday to Friday)</div>
+					<div class="footerworld4">10:30-16:30 (Saturday)</div>
+					<div style="margin-top:18px;">E-mail</div>
+					<div class="footerRightWorld">cs@ladangmodal.com</div>
+				</div>
+            </div>
+			<div class="copyright-panel">
+				Copyright &copy; <span id="copyrightyear">2015-2019</span> HappyCash All Rights Reserved by PT Digital YinShan Technology
+			</div>
+			
+		</div>
+		
+		<div class="footer-container-mobile show-hide-two">
+            <div class="row">
+                <div class="col" style="text-align: center;">
+					<div>
+						<img src="css/assets/img/index/DowloadHappyCash.png" />
+					</div>
+					<div style="margin-top:18px;">
+						<img style="border-radius:5px;" src="css/assets/img/index/google.png" />
+					</div>
+					<div class="footerIcon">
+						<div style="display:inline-block;"><a><img style="width:40px;margin-right: 10px;margin-left: 10px;" src="css/assets/img/index/FB.png" /></a></div>
+						<div style="display:inline-block;"><a><img style="width:40px;margin-right: 10px;margin-left: 10px;" src="css/assets/img/index/TW.png" /></a></div>
+						<div style="display:inline-block;"><a><img style="width:40px;margin-right: 10px;margin-left: 10px;" src="css/assets/img/index/IG.png" /></a></div>
+					</div>
+                </div>
+            </div>
+			
+			<div class="row" style="margin-top:25px;">
+				<div class="col" style="text-align: center;">
+					<div>Hotline</div>
+					<div>09272356293</div>
+					<div class="footerRightWorld" style="margin-top:18px;">9:30-18:30 (Monday to Friday)</div>
+					<div class="footerworld4">10:30-16:30 (Saturday)</div>
+					<div>E-mail</div>
+					<div class="footerRightWorld">cs@ladangmodal.com</div>
+				</div>
+            </div>
+			<div class="copyright-panel">
+			Copyright &copy; <span id="copyrightyear">2015-2019</span> HappyCash All Rights Reserved by PT Digital YinShan Technology
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</body>
+</html>
